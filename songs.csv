@@ -1,0 +1,41 @@
+song_id,title,artist,genre,mood,tempo,tags
+1,Shape of You,Ed Sheeran,Pop,Happy,Medium,romantic dance catchy pop upbeat
+2,Blinding Lights,The Weeknd,Pop,Energetic,Fast,synthwave retro dance upbeat energetic
+3,Someone Like You,Adele,Pop,Sad,Slow,emotional heartbreak piano ballad soulful
+4,Bohemian Rhapsody,Queen,Rock,Energetic,Medium,classic rock opera epic legendary
+5,Perfect,Ed Sheeran,Pop,Romantic,Slow,love wedding acoustic romantic ballad
+6,Uptown Funk,Mark Ronson,Funk,Happy,Fast,dance funky groovy party upbeat
+7,Rolling in the Deep,Adele,Pop,Energetic,Medium,soulful powerful breakup emotional
+8,Sweet Child O Mine,Guns N Roses,Rock,Energetic,Fast,classic rock guitar iconic anthem
+9,Stairway to Heaven,Led Zeppelin,Rock,Calm,Slow,classic rock legendary progressive epic
+10,Levitating,Dua Lipa,Pop,Happy,Fast,dance disco upbeat catchy party
+11,Someone You Loved,Lewis Capaldi,Pop,Sad,Slow,emotional heartbreak piano ballad
+12,Thinking Out Loud,Ed Sheeran,Pop,Romantic,Slow,love wedding acoustic romantic soulful
+13,Believer,Imagine Dragons,Rock,Energetic,Fast,rock anthem powerful motivational
+14,Radioactive,Imagine Dragons,Rock,Energetic,Medium,rock anthem dark powerful
+15,Havana,Camila Cabello,Pop,Happy,Medium,latin dance catchy tropical upbeat
+16,Senorita,Shawn Mendes,Pop,Romantic,Medium,love duet catchy dance romantic
+17,Counting Stars,OneRepublic,Pop,Happy,Medium,upbeat motivational catchy anthem
+18,Numb,Linkin Park,Rock,Sad,Medium,emotional angst rock alternative
+19,In the End,Linkin Park,Rock,Sad,Medium,emotional rock alternative iconic
+20,Viva La Vida,Coldplay,Rock,Energetic,Medium,anthem epic orchestral uplifting
+21,Fix You,Coldplay,Rock,Calm,Slow,emotional uplifting ballad soulful
+22,Clocks,Coldplay,Rock,Calm,Medium,atmospheric piano iconic uplifting
+23,Happy,Pharrell Williams,Pop,Happy,Fast,upbeat feel-good catchy dance
+24,Can't Stop the Feeling,Justin Timberlake,Pop,Happy,Fast,dance feel-good upbeat catchy
+25,Old Town Road,Lil Nas X,Country,Happy,Medium,country rap catchy fun crossover
+26,Despacito,Luis Fonsi,Latin,Happy,Medium,latin dance romantic catchy tropical
+27,Shallow,Lady Gaga,Pop,Sad,Slow,emotional duet ballad soulful powerful
+28,Bad Guy,Billie Eilish,Pop,Energetic,Medium,dark quirky bass catchy alternative
+29,Watermelon Sugar,Harry Styles,Pop,Happy,Medium,summer catchy upbeat feel-good
+30,Circles,Post Malone,Pop,Calm,Medium,melancholic reflective smooth catchy
+31,Lovely,Billie Eilish,Pop,Sad,Slow,melancholic emotional duet atmospheric
+32,Memories,Maroon 5,Pop,Sad,Slow,nostalgic emotional tribute ballad
+33,Sunflower,Post Malone,Pop,Happy,Medium,catchy summer feel-good upbeat
+34,Perfect Duet,Ed Sheeran,Pop,Romantic,Slow,love duet acoustic wedding romantic
+35,All of Me,John Legend,Pop,Romantic,Slow,love wedding piano ballad soulful
+36,Roar,Katy Perry,Pop,Energetic,Fast,empowering anthem upbeat motivational
+37,Firework,Katy Perry,Pop,Energetic,Medium,empowering anthem uplifting motivational
+38,Chandelier,Sia,Pop,Sad,Medium,emotional powerful anthem dramatic
+39,Thunder,Imagine Dragons,Rock,Energetic,Fast,rock anthem catchy powerful
+40,Stressed Out,Twenty One Pilots,Alternative,Sad,Medium,alternative reflective angst catchy

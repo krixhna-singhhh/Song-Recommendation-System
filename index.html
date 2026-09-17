@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Song Recommendation System</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+  <header class="app-header">
+    <h1>🎵 Song Recommendation System</h1>
+    <p>Discover songs similar to your favorites using content-based filtering</p>
+  </header>
+
+  <main class="container">
+
+    <!-- ================= SEARCH BY SONG ================= -->
+    <section class="card">
+      <h2>1. Search by Song</h2>
+      <p class="hint">Type a song name, pick it from the suggestions, then click "Get Recommendations".</p>
+
+      <div class="search-row">
+        <input type="text" id="songInput" list="songList" placeholder="e.g. Shape of You" autocomplete="off">
+        <datalist id="songList"></datalist>
+        <select id="topN">
+          <option value="5">Top 5</option>
+          <option value="8" selected>Top 8</option>
+          <option value="10">Top 10</option>
+        </select>
+        <button id="recommendBtn">Get Recommendations</button>
+      </div>
+
+      <div id="songError" class="error-msg"></div>
+    </section>
+
+    <!-- ================= FILTER BY GENRE / MOOD ================= -->
+    <section class="card">
+      <h2>2. Or Browse by Genre &amp; Mood</h2>
+      <div class="search-row">
+        <select id="genreFilter">
+          <option value="Any">Any Genre</option>
+        </select>
+        <select id="moodFilter">
+          <option value="Any">Any Mood</option>
+        </select>
+        <button id="filterBtn">Browse Songs</button>
+      </div>
+    </section>
+
+    <!-- ================= RESULTS ================= -->
+    <section class="card" id="resultsSection" style="display:none;">
+      <h2 id="resultsTitle">Recommendations</h2>
+      <div id="resultsGrid" class="results-grid"></div>
+    </section>
+
+  </main>
+
+  <footer class="app-footer">
+    <p>College Mini Project &mdash; Song Recommendation System (Content-Based Filtering with TF-IDF &amp; Cosine Similarity)</p>
+  </footer>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
